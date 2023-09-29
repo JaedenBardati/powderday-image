@@ -9,6 +9,7 @@ The `powderdayimage.py` file contains the following convenience functions and cl
 
 - `MultiBandImage` : Class for loading and accessing an hdf5 Powderday file, including displaying the image.
 - `SingleBandImage` : Class for loading and accessing a single band in an hdf5 Powderday file, including displaying the image.
+- `PowderdayDataCube`: Class for loading and accessing a datacube from Powderday (note: Powderday does not support kinematics, use SKIRT instead).
 
 ### Examples
 See the accompanying Jupyter Notebook `Powderday-output-access.ipynb` for example usages.
