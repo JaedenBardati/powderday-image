@@ -2,7 +2,7 @@
 A repository of convenience python functions and classes that handle the image output of the Powderday radiative transfer simulation.
 
 ### Requirements
-numpy, matplotlib, astropy, pandas, photutils, h5py, [Pillow](https://pypi.org/project/Pillow/), [Hyperion](http://www.hyperion-rt.org/)
+numpy, matplotlib, scipy, astropy, pandas, photutils, h5py, [Pillow](https://pypi.org/project/Pillow/), [Hyperion](http://www.hyperion-rt.org/)
 
 ### Description
 The `powderdayimage.py` file contains the following convenience functions and classes:
