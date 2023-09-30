@@ -14,7 +14,8 @@ The `powderdayimage.py` file contains the following convenience functions and cl
 The `powderdaydatacube.py` file contains the following:
 - `PowderdayDataCube`: Class for loading and accessing a datacube from Powderday (note: Powderday does not support kinematics, use SKIRT instead).
 
-There is also `generate_filter_map.py` which is example code that generates a filter map between the filter output of Powderday and the correct filters. This is necessary to correct for an error in Powderday where the filter images are seemingly scrambled.
+There is also `generate_filter_map.py` which generates a filter map between the filter output of Powderday and the correct filters. This is necessary to correct for an error in Powderday where the filter images are seemingly scrambled.
 
 ### Examples
-See the accompanying Jupyter Notebook `Powderday-output-access.ipynb` for example usages.
+See the accompanying Jupyter Notebook `Powderday-output-access.ipynb` for example usages of `powderdayimage.py`. 
+For example usage of `powderdaydatacube.py` see the if main section at the end of the file.
